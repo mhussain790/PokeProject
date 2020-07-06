@@ -2,4 +2,4 @@ PokeProject is an web application created with NodeJS and ExpressJS. It displays
 
 The application will incorporate new features to display types, search functionality, view different generations of Pokemon, etc.
 
-![Image of PokeProject](https://imgur.com/a/RN2G2RT)
+![Image](https://raw.githubusercontent.com/mhussain790/PokeProject/master/public/images/Screen%20Shot%202020-07-06%20at%2012.20.45%20AM.png)
