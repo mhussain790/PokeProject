@@ -1,0 +1,24 @@
+<%- include("partials/header") %>
+
+<h1>Hello</h1>
+
+
+<div class="card-row">
+  
+  <% monsters.forEach(function(monster) { %>
+  <div class="card">
+    <img src="<%=monster.front_img%>" alt="bulbasaur" id="poke-img" />
+    <div class="card-info">
+      <div class="name-container">
+        <h4 id="dex-num">#00<%= monster.poke_id %></h3>
+        <h4 id="name-title"><b><%= monster.name %></b></h4>
+      
+      </div>
+      <p>Type</p>
+    </div>
+  </div>
+  <% }) %> 
+
+</div>
+
+<%- include("partials/footer") %>
